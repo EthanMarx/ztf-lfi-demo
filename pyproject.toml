@@ -4,13 +4,14 @@ version = "0.1.0"
 description = "Demo of using LFI for GW data"
 authors = ["Ethan Marx <emarx@mit.edu>"]
 license = "MIT"
-readme = "README.md"
-
 
 
 [tool.poetry.dependencies]
 python = "^3.9"
 
+
+[tool.poetry.group.dev.dependencies]
+conda-lock = "^2.5.7"
 
 [build-system]
 requires = ["poetry-core"]
