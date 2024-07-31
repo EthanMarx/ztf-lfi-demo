@@ -22,4 +22,6 @@ APPTAINERENV_HDF5_USE_FILE_LOCKING=FALSE APPTAINERENV_CUDA_VISIBLE_DEVICES=0,1 \
 
 Changing the `APPTAINERENV_CUDA_VISIBLE_DEVICES` variable depending on your machine. 
 
-You can now access the notebook at `localhost:8858` in your browser
+You can now access a jupyter lab instance at `localhost:8858` in your browser.
+
+All of the relevant code is in `demo.ipynb`!
